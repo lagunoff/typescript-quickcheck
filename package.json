@@ -1,0 +1,44 @@
+{
+  "name": "typescript-quickcheck",
+  "version": "0.0.1",
+  "files": [
+    "lib",
+    "README.md"
+  ],
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "clean": "rm -rf lib/*",
+    "build": "rm -rf lib/* && tsc",
+    "lint": "tslint src/*.ts",
+    "docs:build": "ts-node scripts/gendocs.ts src/index.ts > docs/index.md"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lagunoff/typescript-quickcheck.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lagunoff/typescript-quickcheck/issues"
+  },
+  "homepage": "https://github.com/lagunoff/typescript-quickcheck",
+  "tags": [
+    "typescript",
+    "routing",
+    "testing"
+  ],
+  "author": "Vlad Lagunov <vlad.lagunoff@gmail.com>",
+  "keywords": [
+    "typescript",
+    "routing",
+    "testing"
+  ],
+  "devDependencies": {
+    "@types/node": "^9.3.0",
+    "lodash": "^4.17.4",
+    "ts-node": "^4.1.0",
+    "tslint": "^5.9.1",
+    "tslint-config-airbnb": "^5.4.2",
+    "typescript": "^2.6.2"
+  }
+}

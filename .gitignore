@@ -1,0 +1,14 @@
+/tmp
+**/.#*
+/node_modules/
+**/*~
+**/*.kate-swp
+**/.directory
+/npm-debug.log
+/.dir-locals.el
+/yarn-errors.log
+/tests/
+/examples/node_modules
+/scripts/node_modules
+/lib
+/yarn-error.log
